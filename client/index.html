@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <h3>Socket io. Chat Example</h3>
+    <form>
+      <div>
+        <label for="msgForm">Message: </label>
+        <input type="text" id="msgForm">
+      </div>
+      <button id="submitButton" type="submit">Send</button>
+    </form>
+    <div id="chatLogs"></div>
+  </div>
+  <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/primus@7.3.4/primus.js"></script> -->
+  <script src="./socket.js"></script>
+</body>
+</html>
